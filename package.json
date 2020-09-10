@@ -1,0 +1,23 @@
+{
+  "name": "ipsums",
+  "version": "1.0.0",
+  "description": "An es module to generate lorem ipsum sentences",
+  "main": "index.js",
+  "scripts": {
+    "start": "servor --browse --reload --editor",
+    "build": "esbuild --bundle index.js --outfile=index.min.js --format=esm --minify"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "generator",
+    "prototype",
+    "tool"
+  ],
+  "author": "Luke Jackson <@lukejacksonn>",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.6.33",
+    "servor": "^4.0.2"
+  }
+}
