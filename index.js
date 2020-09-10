@@ -1,10 +1,11 @@
 export default (length) => {
   // Dictionary of words
-  let paragraph =
+  const paragraph =
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. Duis aute irure dolor reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim est laborum.',
     words = paragraph.split(' '),
-    word = '',
-    out = capitalize(randomWord());
+    word = '';
+
+  let out = capitalize(randomWord());
 
   // Helper functions
   const charAtEndOfOut = (char, step) =>
