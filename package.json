@@ -1,7 +1,7 @@
 {
   "name": "ipsums",
   "version": "1.0.0",
-  "description": "An es module to generate lorem ipsum sentences",
+  "description": "Generate random amounts of lorem ipsum text",
   "main": "index.js",
   "scripts": {
     "start": "servor --browse --reload --editor",
